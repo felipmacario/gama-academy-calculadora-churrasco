@@ -29,7 +29,7 @@ const calcularChurrasco = () => {
 
     
 
-    document.getElementById("total-carne").innerHTML = `${getValueMeasure(totalCarne, 1)}`
+    document.getElementById("total-carne").innerHTML = `Total de Carnes: ${getValueMeasure(totalCarne, 1)}`
     document.getElementById("total-pessoas").innerHTML = `${totalPessoas} pessoas`
     document.getElementById("total-acompanhamento").innerHTML = `${getValueMeasure(totalAcompanhamento, 1)}`
     document.getElementById("total-bebidas-nao-alcoolicas").innerHTML = `${getValueMeasure(totalBebidasNaoAlcoolicas, 2)}`
